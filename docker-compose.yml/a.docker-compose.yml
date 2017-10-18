@@ -1,0 +1,29 @@
+version: '2'
+services:
+  app:
+    image: php:7.1-apache
+    container_name: app
+    mem_limit: 512M
+    ports:
+      - 8080:80
+    links:
+      - db
+    networks:
+      - connector
+
+  db:
+    image: mariadb:latest
+    container_name: db
+    mem_limit: 512M
+    ports:
+      - 3306:3306
+    volumes:
+      - database:/var/lib/mysql
+    networks:
+      - connector
+
+networks:
+  connector: {}
+
+volumes:
+  database: {}
