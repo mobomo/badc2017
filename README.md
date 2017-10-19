@@ -7,6 +7,7 @@ touched over the course of the presentation will be available in this
 repository in each of versions as they're modified.
 
 You can follow along with the presentation on [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vThyTUY0gNNe4-EzwzOLYI05nNsIFrxGa2nBiSBsNzI9P2mmRJ4_4TNtpDztMkNJGTY5EBwLbjMwYQD/pub).
+Alternatively you can [Download a PDF of the Slides](https://2017.badcamp.net/system/files/training_files/Local%20Development%20Training%20BADCamp%202017.pdf).
 
 ## How To Use This Repo
 
